@@ -8,7 +8,7 @@ class DateConversionFailure(CommandError):
         )
 
 
-class ShortDateConversionFailure(DateConversionFailure):
+class ShortDateConversionFailure(CommandError):
     def __init__(self, date: str):
         super().__init__(
             f"Could not convert {date} to date. Please follow the following format: DD.MM (eg. 24.09)"
