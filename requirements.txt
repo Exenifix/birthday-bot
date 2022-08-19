@@ -2,7 +2,7 @@
 aiosignal==1.2.0
 aiosqlite==0.17.0
 async-timeout==4.0.2
-attrs==21.4.0
+attrs==22.1.0
 black==22.6.0
 charset-normalizer==2.1.0
 click==8.1.3
